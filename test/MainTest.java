@@ -1,15 +1,26 @@
-import static org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.Test;
+import java.util.Scanner;
 
-public class MainTest {
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-    @Test
-    void testSum() {
-        assertEquals(5, Main.sum(2, 3));
-    }
+        int n = sc.nextInt(); // массив өлшемі
+        int[] arr = new int[n];
 
-    @Test
-    void testNegative() {
-        assertEquals(-1, Main.sum(2, -3));
+        // элементтерді енгізу
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
+
+        // ең үлкен элементті табу
+        int max = arr[0];
+        for (int i = 1; i < n; i++) {
+            if (arr[i] > max) {
+                max = arr[i];
+            }
+        }
+
+        // нәтижені шығару
+        System.out.println(max);
     }
 }
