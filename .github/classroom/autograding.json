@@ -1,0 +1,604 @@
+{
+  "tests": [
+    {
+      "name": "01. Санның жұп немесе тақ екенін анықтау - test 1",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "4",
+      "output": "Even",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "01. Санның жұп немесе тақ екенін анықтау - test 2",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "7",
+      "output": "Odd",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "02. Екі санның үлкенін табу - test 1",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "5 9",
+      "output": "9",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "02. Екі санның үлкенін табу - test 2",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "8 8",
+      "output": "Equal",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "03. 1-ден N-ге дейінгі сандардың қосындысын есептеу - test 1",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "5",
+      "output": "15",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "03. 1-ден N-ге дейінгі сандардың қосындысын есептеу - test 2",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "10",
+      "output": "55",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "04. Факториалды есептеу - test 1",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "5",
+      "output": "120",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "04. Факториалды есептеу - test 2",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "6",
+      "output": "720",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "05. Санның цифрларының қосындысын табу - test 1",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "12345",
+      "output": "15",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "05. Санның цифрларының қосындысын табу - test 2",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "9001",
+      "output": "10",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "06. Массивтегі ең үлкен элементті табу - test 1",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "5\n1 7 3 9 2",
+      "output": "9",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "06. Массивтегі ең үлкен элементті табу - test 2",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "4\n-5 -2 -9 -1",
+      "output": "-1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "07. Массивтегі жұп сандардың санын анықтау - test 1",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "5\n1 2 3 4 6",
+      "output": "3",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "07. Массивтегі жұп сандардың санын анықтау - test 2",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "4\n7 9 11 13",
+      "output": "0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "08. Жолды кері шығару - test 1",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "hello",
+      "output": "olleh",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "08. Жолды кері шығару - test 2",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "Java",
+      "output": "avaJ",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "09. Палиндромды тексеру - test 1",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "level",
+      "output": "Palindrome",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "09. Палиндромды тексеру - test 2",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "java",
+      "output": "Not palindrome",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "10. Екі санның ең үлкен ортақ бөлгішін табу - test 1",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "18 24",
+      "output": "6",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "10. Екі санның ең үлкен ортақ бөлгішін табу - test 2",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "17 13",
+      "output": "1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "11. Ең кіші элементті табу - test 1",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "5\n4 8 1 9 2",
+      "output": "1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "11. Ең кіші элементті табу - test 2",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "4\n-3 -7 0 5",
+      "output": "-7",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "12. Массив элементтерін кері шығару - test 1",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "5\n1 2 3 4 5",
+      "output": "5 4 3 2 1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "12. Массив элементтерін кері шығару - test 2",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "3\n10 20 30",
+      "output": "30 20 10",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "13. Жолдағы дауысты әріптер санын табу - test 1",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "hello",
+      "output": "2",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "13. Жолдағы дауысты әріптер санын табу - test 2",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "education",
+      "output": "5",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "14. Көбейту кестесін шығару - test 1",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "3",
+      "output": "3 6 9 12 15 18 21 24 27 30",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "14. Көбейту кестесін шығару - test 2",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "5",
+      "output": "5 10 15 20 25 30 35 40 45 50",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "15. Санның кері жазылуын табу - test 1",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "1234",
+      "output": "4321",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "15. Санның кері жазылуын табу - test 2",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "900",
+      "output": "9",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "16. Массивтің орташа мәнін табу - test 1",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "4\n2 4 6 8",
+      "output": "5.0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "16. Массивтің орташа мәнін табу - test 2",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "3\n1 2 3",
+      "output": "2.0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "17. Жолдағы бос орындар санын анықтау - test 1",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "hello world java",
+      "output": "2",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "17. Жолдағы бос орындар санын анықтау - test 2",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "no_spaces",
+      "output": "0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "18. Массивтегі теріс сандар санын табу - test 1",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "5\n-1 2 -3 4 -5",
+      "output": "3",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "18. Массивтегі теріс сандар санын табу - test 2",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "4\n1 2 3 4",
+      "output": "0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "19. Екі жолды біріктіру - test 1",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "Hello\nWorld",
+      "output": "HelloWorld",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "19. Екі жолды біріктіру - test 2",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "Java\nCourse",
+      "output": "JavaCourse",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "20. Массив элементтерінің қосындысын табу - test 1",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "5\n1 2 3 4 5",
+      "output": "15",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "20. Массив элементтерінің қосындысын табу - test 2",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "3\n-1 5 6",
+      "output": "10",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "21. Массивтегі тақ сандар санын табу - test 1",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "5\n1 2 3 4 5",
+      "output": "3",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "21. Массивтегі тақ сандар санын табу - test 2",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "4\n2 4 6 8",
+      "output": "0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "22. Санның цифрлары санын анықтау - test 1",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "12345",
+      "output": "5",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "22. Санның цифрлары санын анықтау - test 2",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "0",
+      "output": "1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "23. Жолды үлкен әріптерге айналдыру - test 1",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "java",
+      "output": "JAVA",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "23. Жолды үлкен әріптерге айналдыру - test 2",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "Hello World",
+      "output": "HELLO WORLD",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "24. Екі санның айырмасын табу - test 1",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "10 3",
+      "output": "7",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "24. Екі санның айырмасын табу - test 2",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "5 9",
+      "output": "-4",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "25. Массивтегі нөлдердің санын анықтау - test 1",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "5\n0 1 0 2 0",
+      "output": "3",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "25. Массивтегі нөлдердің санын анықтау - test 2",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "4\n1 2 3 4",
+      "output": "0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "26. Жолдағы символдардың санын анықтау - test 1",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "hello",
+      "output": "5",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "26. Жолдағы символдардың санын анықтау - test 2",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "hi java",
+      "output": "7",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "27. Массивтегі элементтерді екі есе арттыру - test 1",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "4\n1 2 3 4",
+      "output": "2 4 6 8",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "27. Массивтегі элементтерді екі есе арттыру - test 2",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "3\n-1 0 5",
+      "output": "-2 0 10",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "28. Екі санның қосындысын циклсіз табу - test 1",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "2 3",
+      "output": "5",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "28. Екі санның қосындысын циклсіз табу - test 2",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "-5 10",
+      "output": "5",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "29. Жолдан белгілі бір символды табу - test 1",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "hello\nl",
+      "output": "Found",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "29. Жолдан белгілі бір символды табу - test 2",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "java\nz",
+      "output": "Not found",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "30. Массивтегі бірдей элементтерді табу - test 1",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "5\n1 2 3 2 5",
+      "output": "Duplicates found",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "30. Массивтегі бірдей элементтерді табу - test 2",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "4\n1 2 3 4",
+      "output": "No duplicates",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
